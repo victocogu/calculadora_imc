@@ -52,7 +52,7 @@ class Pessoa{
       classificacao="Obesidade Grau I";
     }else if(valorIMC<40){
       classificacao="Obesidade Grau II (severa)";
-    }else if(valorIMC>=40){
+    }else {
       classificacao="Obesidade Grau III (mórbida)";
     }
     return "IMC: ${valorIMC.toStringAsFixed(2)} - Classificação: $classificacao";
